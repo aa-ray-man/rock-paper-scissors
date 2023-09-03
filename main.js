@@ -73,10 +73,10 @@ function playRound(playerSelection, computerSelection) {
         (playerSelection === 'scissors' && computerSelection === 'paper') ||
         (playerSelection === 'paper' && computerSelection === 'rock')
         ) {
-            cscore++;
+            pscore++;
             return `You win! ${playerSelection} beats ${computerSelection}.`;
         } else {
-            pscore++;
+            cscore++;
         return `You lose! ${computerSelection} beats ${playerSelection}.`;
     }
 }
@@ -93,10 +93,10 @@ function game() {
     }
     
     if(cscore===5){
-        console.log("You win! Computer loses.")
+        console.log(`You lose!\ncomputer= ${cscore} You= ${pscore}`)
     }
     else if(pscore===5){
-        console.log("You lose! Computer win.")
+        console.log(`You win!\ncomputer= ${cscore} You= ${pscore}`)
     }
 }
 

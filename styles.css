@@ -1,0 +1,113 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/background-tree-wood-boards.jpg);
+    height: 100%;
+    font-family: "Lucida Handwriting", "Haettenschweiler", 'Arial Narrow Bold', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+html,body{
+    height:100%;
+    padding:0;
+    margin:0;
+    overflow: hidden;
+  }
+
+.start .container {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container button {
+    margin: 60px;
+    padding: 16px;
+    border-radius: 12px;
+    background-color: #F7EF8A;
+    outline: none;
+    border: 12px none;
+    font-size: 24px;
+}
+
+button:hover{
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.container h1{
+  color: #F7EF8A;
+  font-size: 60px;
+}
+
+.game{
+  height: 100%;
+}
+
+.game h1{
+  color: #F7EF8A;
+  font-size: 48px;
+}
+
+.game .container .heading{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+} 
+
+.game .container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.game .container .options{
+  width: 100%;
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+.choice img{
+  height: 125px;
+  width: 100%;
+  border-radius: 50%;
+  border: 5px solid red;
+}
+
+.choice:hover img{
+  border: 5px solid green;
+  border-radius: 15%;
+}
+
+
+.game .container .play{
+  width: 100%;
+}
+
+.game .container .play .score{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.game .container .play .score h2{
+  color: #F7EF8A;
+  font-size: 30px;
+}
+
+
+.game .container .play h3{
+  color: red;
+  font-size: 25px;
+  text-align: center;
+}

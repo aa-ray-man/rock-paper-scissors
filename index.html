@@ -10,7 +10,7 @@
     <div class="start">
         <div class="container">
         <h1>Rock, Paper, Scissors ?</h1>
-        <button onclick="hideStartShowGame()">Play</button>
+        <button id="play" onclick="hideStartShowGame()">Play</button>
         </div>
     </div>
 
@@ -24,24 +24,24 @@
 
         <div class="play">
             <div class="score">
-                <h2>Player Score :</h2>
-                <h2>Computer Score :</h2>
+                <h2 id="player-score">Player Score :</h2>
+                <h2 id="comp-score">Computer Score :</h2>
             </div>
             
-            <h3>Mohindru</h3>
+            <h3 id="output">May the best person win!</h3>
 
         </div>
 
         <div class="options">
-        <div class="choice">
+        <button class="choice" id="rock">
            <img src="img/202-2025619_rock-paper-scissors-png-transparent-png.png" alt="rock">
-        </div>
-        <div class="choice">
+        </button>
+        <button class="choice" id="paper">
             <img src="img/490-4906131_rock-paper-scissors-clipart-rock-paper-scissors-png.png" alt="paper">
-        </div>
-        <div class="choice">
+        </button>
+        <button class="choice" id="scissors">
             <img src="img/535-5357819_rock-paper-scissors-png-transparent-png.png" alt="scissors">
-        </div>
+        </button>
         </div>
         
         </div>

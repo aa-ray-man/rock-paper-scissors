@@ -17,6 +17,11 @@ html,body{
     overflow: hidden;
   }
 
+  button{
+    background: none;
+    border: none;
+  }
+
 .start .container {
     display: flex;
     height: 100vh;
@@ -26,7 +31,7 @@ html,body{
     justify-content: center;
 }
 
-.container button {
+#play{
     margin: 60px;
     padding: 16px;
     border-radius: 12px;
@@ -36,7 +41,7 @@ html,body{
     font-size: 24px;
 }
 
-button:hover{
+#play:hover{
   font-size: 30px;
   font-weight: bolder;
 }
@@ -107,7 +112,7 @@ button:hover{
 
 
 .game .container .play h3{
-  color: red;
+  color: silver;
   font-size: 25px;
   text-align: center;
 }
